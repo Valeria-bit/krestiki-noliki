@@ -9,11 +9,11 @@ public class Main {
         System.out.println("Игра началась...");
         System.out.println("*-----------*\n"+
                            "| 1 | 2 | 3 |\n"+
-                           "|-----------|\n"+
+                           "|---|---|---|\n"+
                            "| 4 | 5 | 6 |\n"+
-                           "|-----------|\n"+
+                           "|---|---|---|\n"+
                            "| 7 | 8 | 9 |\n"+
-                           "-------------\n");
+                           "*-----------*\n");
         field.print();
         Symbol player = Symbol.krestik;
         while (!field.gameOver()) {
